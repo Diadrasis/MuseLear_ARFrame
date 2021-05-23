@@ -9,14 +9,17 @@ public class ObbExctractor : MonoBehaviour
     public void LoadVuforia() { SceneManager.LoadScene("#Vuforia"); }
     public void LoadMenu() { SceneManager.LoadScene("Splash"); }
     public void ExitApp() { Application.Quit(); }
-    /*
+   
 
     void Start()
     {
         //StartCoroutine(ExtractObbDatasets());
         //SceneManager.LoadScene("#Easy");
+        ExitApp();
+        //test
     }
 
+     /*
     private IEnumerator ExtractObbDatasets()
     {
         string[] filesInOBB = { "arframe.dat", "arframe.xml" };

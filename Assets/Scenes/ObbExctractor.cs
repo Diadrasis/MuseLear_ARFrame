@@ -11,13 +11,13 @@ public class ObbExctractor : MonoBehaviour
     public void ExitApp() { Application.Quit(); }
    
 
-    void Start()
-    {
+   // void Start()
+   // {
         //StartCoroutine(ExtractObbDatasets());
         //SceneManager.LoadScene("#Easy");
-        ExitApp();
+        //ExitApp();
         //test
-    }
+   // }
 
      /*
     private IEnumerator ExtractObbDatasets()
